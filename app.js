@@ -2,7 +2,7 @@ console.log('hello world :o');
 
 const dreams = [
   'Find and count some sheep',
-  'Climb a really tall mountain',
+  'Climb a really tall mountain'
   'Wash the dishes'
 ];
 
@@ -12,7 +12,7 @@ const dreamInput = dreamsForm.elements['dream'];
 
 const appendNewDream = function(dream) {
   const newListItem = document.createElement('li');
-  newListItem.innerHTML = dream;
+  newListItem.inerHTML = dream;
   dreamsList.appendChild(newListItem);
 }
 
