@@ -38,4 +38,6 @@ function isStringType(obj) {
     return false;
 }
 
+
 console.log(isStringType('hello'));
+console.log('hello');
