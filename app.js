@@ -1,8 +1,8 @@
-console.log('hello world :o');
+console.log('hello world');
 
 const dreams = [
   'Find and count some sheep',
-  'Climb a really tall mountain'
+  'Climb a really tall mountain',
   'Wash the dishes'
 ];
 
