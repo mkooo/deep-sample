@@ -29,3 +29,9 @@ dreamsForm.onsubmit = function(event) {
   dreamInput.value = '';
   dreamInput.focus();
 };
+
+function getText() {
+    console.log('Hello Gitpod');
+}
+
+getText;
