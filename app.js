@@ -30,8 +30,12 @@ dreamsForm.onsubmit = function(event) {
   dreamInput.focus();
 };
 
-function getText() {
-    console.log('Hello Gitpod');
+function isStringType(obj) {
+    var type = 'stringg';
+    if (typeof obj === type) {
+        return true;
+    }
+    return false;
 }
 
-getText;
+console.log(isStringType('hello'));
